@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join Us – YourOrg</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Noto+Serif+Bengali:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/variables.css">
+  <link rel="stylesheet" href="../assets/css/animations.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+<body>
+  <div id="loader-placeholder"></div>
+  <div id="navbar-placeholder"></div>
+
+  <main style="padding-top: var(--navbar-height);">
+    <section class="page-hero" style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%); color:#fff;">
+      <div class="container">
+        <div class="breadcrumb" style="justify-content:center; color:rgba(255,255,255,0.7);">
+          <a href="../index.html" style="color:rgba(255,255,255,0.8);" data-en="Home" data-bn="হোম">Home</a>
+          <span class="breadcrumb-sep">/</span>
+          <span data-en="Join Us" data-bn="যোগ দিন">Join Us</span>
+        </div>
+        <h1 class="reveal" style="color:#fff;" data-en="Become a Supporter" data-bn="সমর্থক হন">Become a Supporter</h1>
+        <p class="reveal" style="color:rgba(255,255,255,0.85);" data-en="Fill out the form below to join our growing movement." data-bn="আমাদের ক্রমবর্ধমান আন্দোলনে যোগ দিতে নিচের ফর্মটি পূরণ করুন।">Fill out the form below to join our growing movement.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div style="max-width:700px; margin:0 auto;">
+
+          <!-- Benefits -->
+          <div class="grid grid-3" style="margin-bottom:3rem;">
+            <div class="card reveal" style="padding:1.5rem;text-align:center;">
+              <div style="font-size:2rem;margin-bottom:0.5rem;">🎓</div>
+              <h4 style="font-size:0.95rem;" data-en="Learning Programs" data-bn="শিক্ষা কর্মসূচি">Learning Programs</h4>
+              <p style="font-size:0.8rem;" data-en="Access exclusive seminars and workshops." data-bn="একচেটিয়া সেমিনার ও কর্মশালায় প্রবেশাধিকার।">Access exclusive seminars and workshops.</p>
+            </div>
+            <div class="card reveal reveal-delay-1" style="padding:1.5rem;text-align:center;">
+              <div style="font-size:2rem;margin-bottom:0.5rem;">🌐</div>
+              <h4 style="font-size:0.95rem;" data-en="National Network" data-bn="জাতীয় নেটওয়ার্ক">National Network</h4>
+              <p style="font-size:0.8rem;" data-en="Connect with 50,000+ members nationwide." data-bn="সারাদেশে ৫০,০০০+ সদস্যের সাথে সংযুক্ত হন।">Connect with 50,000+ members nationwide.</p>
+            </div>
+            <div class="card reveal reveal-delay-2" style="padding:1.5rem;text-align:center;">
+              <div style="font-size:2rem;margin-bottom:0.5rem;">🏆</div>
+              <h4 style="font-size:0.95rem;" data-en="Leadership Role" data-bn="নেতৃত্বের সুযোগ">Leadership Role</h4>
+              <p style="font-size:0.8rem;" data-en="Opportunities to lead local and national programs." data-bn="স্থানীয় ও জাতীয় কর্মসূচি পরিচালনার সুযোগ।">Opportunities to lead local and national programs.</p>
+            </div>
+          </div>
+
+          <!-- Application Form -->
+          <div class="card reveal" style="padding:2.5rem;">
+            <h3 style="margin-bottom:1.5rem;" data-en="Application Form" data-bn="আবেদন ফর্ম">Application Form</h3>
+            <form id="supporter-form" novalidate>
+              <div class="grid grid-2" style="gap:1.25rem;">
+                <div class="form-group">
+                  <label class="form-label" for="s-name" data-en="Full Name *" data-bn="পূর্ণ নাম *">Full Name *</label>
+                  <input type="text" id="s-name" class="form-control" data-validate="required,minLen:3" placeholder="Full name">
+                  <span class="form-error" id="s-name-error"></span>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="s-phone" data-en="Phone Number *" data-bn="ফোন নম্বর *">Phone Number *</label>
+                  <input type="tel" id="s-phone" class="form-control" data-validate="required,phone" placeholder="01XXXXXXXXX">
+                  <span class="form-error" id="s-phone-error"></span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="s-email" data-en="Email Address" data-bn="ইমেইল ঠিকানা">Email Address</label>
+                <input type="email" id="s-email" class="form-control" data-validate="email" placeholder="your@email.com">
+                <span class="form-error" id="s-email-error"></span>
+              </div>
+              <div class="grid grid-2" style="gap:1.25rem;">
+                <div class="form-group">
+                  <label class="form-label" for="s-institution" data-en="Institution *" data-bn="প্রতিষ্ঠান *">Institution *</label>
+                  <input type="text" id="s-institution" class="form-control" data-validate="required" placeholder="Your university/college">
+                  <span class="form-error" id="s-institution-error"></span>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="s-district" data-en="District *" data-bn="জেলা *">District *</label>
+                  <select id="s-district" class="form-control" data-validate="required">
+                    <option value="" data-en="Select district" data-bn="জেলা বেছে নিন">Select district</option>
+                    <option value="dhaka">Dhaka / ঢাকা</option>
+                    <option value="chittagong">Chittagong / চট্টগ্রাম</option>
+                    <option value="rajshahi">Rajshahi / রাজশাহী</option>
+                    <option value="khulna">Khulna / খুলনা</option>
+                    <option value="sylhet">Sylhet / সিলেট</option>
+                    <option value="barisal">Barisal / বরিশাল</option>
+                    <option value="rangpur">Rangpur / রংপুর</option>
+                    <option value="mymensingh">Mymensingh / ময়মনসিংহ</option>
+                  </select>
+                  <span class="form-error" id="s-district-error"></span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="s-message" data-en="Why do you want to join?" data-bn="কেন যোগ দিতে চান?">Why do you want to join?</label>
+                <textarea id="s-message" class="form-control" rows="4" placeholder="Tell us about yourself..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg" style="width:100%;" data-en="Submit Application" data-bn="আবেদন জমা দিন">Submit Application</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer-placeholder"></div>
+  <button id="back-to-top" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/></svg>
+  </button>
+  <div id="toast-container" class="toast-container"></div>
+
+  <script src="../assets/js/api.js"></script>
+  <script src="../assets/js/ui.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/form.js"></script>
+</body>
+</html>

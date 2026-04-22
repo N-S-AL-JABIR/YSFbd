@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Committee – YourOrg</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Noto+Serif+Bengali:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/variables.css">
+  <link rel="stylesheet" href="../assets/css/animations.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+<body>
+  <div id="loader-placeholder"></div>
+  <div id="navbar-placeholder"></div>
+
+  <main style="padding-top: var(--navbar-height);">
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb" style="justify-content:center;">
+          <a href="../index.html" data-en="Home" data-bn="হোম">Home</a>
+          <span class="breadcrumb-sep">/</span>
+          <span data-en="Committee" data-bn="কমিটি">Committee</span>
+        </div>
+        <h1 class="reveal" data-en="Our Committee" data-bn="আমাদের কমিটি">Our Committee</h1>
+        <p class="reveal" data-en="Meet the dedicated leaders who drive our mission." data-bn="আমাদের মিশন পরিচালনাকারী নিবেদিত নেতাদের সাথে পরিচিত হন।">Meet the dedicated leaders who drive our mission.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div id="committee-container">
+          <div style="text-align:center;padding:3rem 0;"><div class="spinner" style="margin:0 auto;"></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer-placeholder"></div>
+  <button id="back-to-top" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/></svg>
+  </button>
+  <div id="toast-container" class="toast-container"></div>
+
+  <script src="../assets/js/api.js"></script>
+  <script src="../assets/js/ui.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/committee.js"></script>
+</body>
+</html>

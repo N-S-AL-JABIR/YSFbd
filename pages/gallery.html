@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery – YourOrg</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Noto+Serif+Bengali:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/variables.css">
+  <link rel="stylesheet" href="../assets/css/animations.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+<body>
+  <div id="loader-placeholder"></div>
+  <div id="navbar-placeholder"></div>
+
+  <main style="padding-top: var(--navbar-height);">
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb" style="justify-content:center;">
+          <a href="../index.html" data-en="Home" data-bn="হোম">Home</a>
+          <span class="breadcrumb-sep">/</span>
+          <span data-en="Gallery" data-bn="গ্যালারি">Gallery</span>
+        </div>
+        <h1 class="reveal" data-en="Photo Gallery" data-bn="ফটো গ্যালারি">Photo Gallery</h1>
+        <p class="reveal" data-en="Moments from our programs, events and activities." data-bn="আমাদের কর্মসূচি, ইভেন্ট ও কার্যক্রমের মুহূর্তসমূহ।">Moments from our programs, events and activities.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="gallery-grid" id="gallery-grid">
+          <!-- Loaded via gallery.js -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+    <button id="lightbox-prev" style="position:absolute;left:20px;background:rgba(255,255,255,0.15);border:none;color:#fff;font-size:2rem;cursor:pointer;border-radius:50%;width:48px;height:48px;" aria-label="Previous">&#8249;</button>
+    <img id="lightbox-img" src="" alt="" loading="lazy">
+    <button id="lightbox-next" style="position:absolute;right:20px;background:rgba(255,255,255,0.15);border:none;color:#fff;font-size:2rem;cursor:pointer;border-radius:50%;width:48px;height:48px;" aria-label="Next">&#8250;</button>
+    <p id="lightbox-caption" style="position:absolute;bottom:20px;color:rgba(255,255,255,0.8);font-size:0.875rem;text-align:center;width:100%;"></p>
+  </div>
+
+  <div id="footer-placeholder"></div>
+  <button id="back-to-top" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/></svg>
+  </button>
+  <div id="toast-container" class="toast-container"></div>
+
+  <script src="../assets/js/api.js"></script>
+  <script src="../assets/js/ui.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/gallery.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<!-- ============================================
+     NAVBAR COMPONENT
+     Loaded dynamically into every page
+     ============================================ -->
+<nav class="navbar" id="navbar" role="navigation" aria-label="Main Navigation">
+  <div class="container">
+    <div class="navbar-inner">
+
+      <!-- Brand / Logo -->
+      <a href="/index.html" class="navbar-brand" aria-label="Home">
+        <img src="/assets/images/logo.png" alt="Organization Logo" onerror="this.style.display='none'">
+        <span class="brand-text" data-en="YSF" data-bn="আপনার সংগঠন">YSF</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <ul class="navbar-nav" role="menubar">
+        <li role="none"><a href="/index.html"          class="nav-link" role="menuitem" data-en="Home"      data-bn="হোম">Home</a></li>
+        <li role="none"><a href="/pages/about.html"    class="nav-link" role="menuitem" data-en="About"     data-bn="সম্পর্কে">About</a></li>
+        <li role="none"><a href="/pages/committee.html"class="nav-link" role="menuitem" data-en="Committee" data-bn="কমিটি">Committee</a></li>
+        <li role="none"><a href="/pages/events.html"   class="nav-link" role="menuitem" data-en="Events"    data-bn="ইভেন্ট">Events</a></li>
+        <li role="none"><a href="/pages/gallery.html"  class="nav-link" role="menuitem" data-en="Gallery"   data-bn="গ্যালারি">Gallery</a></li>
+        <li role="none"><a href="/pages/contact.html"  class="nav-link" role="menuitem" data-en="Contact"   data-bn="যোগাযোগ">Contact</a></li>
+        <li role="none"><a href="/pages/supporter.html"class="btn btn-primary btn-sm !important" role="menuitem" data-en="Join Us" data-bn="যোগ দিন">Join Us</a></li>
+      </ul>
+
+      <!-- Controls: Dark Mode, Language, Hamburger -->
+      <div class="navbar-controls">
+        <!-- Language Toggle -->
+        <button class="lang-toggle" id="lang-toggle" aria-label="Switch Language" title="Switch Language">
+          EN / বাংলা
+        </button>
+
+        <!-- Dark Mode Toggle -->
+        <button class="icon-btn" id="theme-toggle" aria-label="Toggle Dark Mode" title="Toggle Theme">
+          <svg id="theme-icon-sun" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8z"/>
+          </svg>
+          <svg id="theme-icon-moon"width="16" height="16" fill="currentColor" viewBox="0 0 16 16" style="display:none">
+            <path d="M6 0a.5.5 0 0 1 .5.5A6.5 6.5 0 1 0 13 7.5a.5.5 0 0 1 1 0A7.5 7.5 0 1 1 6 .5a.5.5 0 0 1 .5-.5z"/>
+          </svg>
+        </button>
+
+        <!-- Mobile Hamburger -->
+        <button class="hamburger" id="hamburger" aria-label="Toggle Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Navigation Drawer -->
+<div class="mobile-nav" id="mobile-nav" role="dialog" aria-label="Mobile Navigation">
+  <ul>
+    <li><a href="/index.html"          class="nav-link" data-en="Home"      data-bn="হোম">Home</a></li>
+    <li><a href="/pages/about.html"    class="nav-link" data-en="About"     data-bn="সম্পর্কে">About</a></li>
+    <li><a href="/pages/committee.html"class="nav-link" data-en="Committee" data-bn="কমিটি">Committee</a></li>
+    <li><a href="/pages/events.html"   class="nav-link" data-en="Events"    data-bn="ইভেন্ট">Events</a></li>
+    <li><a href="/pages/gallery.html"  class="nav-link" data-en="Gallery"   data-bn="গ্যালারি">Gallery</a></li>
+    <li><a href="/pages/contact.html"  class="nav-link" data-en="Contact"   data-bn="যোগাযোগ">Contact</a></li>
+    <li><a href="/pages/supporter.html"class="nav-link" data-en="Join Us"   data-bn="যোগ দিন">Join Us</a></li>
+  </ul>
+</div>
+  
+</body>
+</html>

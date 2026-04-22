@@ -1,0 +1,78 @@
+[
+  {
+    "id": 1,
+    "name": "Abdullah Al Mamun",
+    "name_bn": "আব্দুল্লাহ আল মামুন",
+    "role": "President",
+    "role_bn": "সভাপতি",
+    "department": "Dhaka University",
+    "dept_bn": "ঢাকা বিশ্ববিদ্যালয়",
+    "email": "president@yourorg.org",
+    "photo": "assets/images/placeholder-avatar.png",
+    "category": "Central Executive Committee",
+    "category_bn": "কেন্দ্রীয় নির্বাহী কমিটি"
+  },
+  {
+    "id": 2,
+    "name": "Rakib Hasan",
+    "name_bn": "রাকিব হাসান",
+    "role": "Vice President",
+    "role_bn": "সহ-সভাপতি",
+    "department": "Jahangirnagar University",
+    "dept_bn": "জাহাঙ্গীরনগর বিশ্ববিদ্যালয়",
+    "email": "vp@yourorg.org",
+    "photo": "assets/images/placeholder-avatar.png",
+    "category": "Central Executive Committee",
+    "category_bn": "কেন্দ্রীয় নির্বাহী কমিটি"
+  },
+  {
+    "id": 3,
+    "name": "Tariqul Islam",
+    "name_bn": "তারিকুল ইসলাম",
+    "role": "General Secretary",
+    "role_bn": "সাধারণ সম্পাদক",
+    "department": "Rajshahi University",
+    "dept_bn": "রাজশাহী বিশ্ববিদ্যালয়",
+    "email": "secretary@yourorg.org",
+    "photo": "assets/images/placeholder-avatar.png",
+    "category": "Central Executive Committee",
+    "category_bn": "কেন্দ্রীয় নির্বাহী কমিটি"
+  },
+  {
+    "id": 4,
+    "name": "Hasibur Rahman",
+    "name_bn": "হাসিবুর রহমান",
+    "role": "Treasurer",
+    "role_bn": "কোষাধ্যক্ষ",
+    "department": "BUET",
+    "dept_bn": "বুয়েট",
+    "email": "treasurer@yourorg.org",
+    "photo": "assets/images/placeholder-avatar.png",
+    "category": "Central Executive Committee",
+    "category_bn": "কেন্দ্রীয় নির্বাহী কমিটি"
+  },
+  {
+    "id": 5,
+    "name": "Mizanur Rahman",
+    "name_bn": "মিজানুর রহমান",
+    "role": "Cultural Secretary",
+    "role_bn": "সাংস্কৃতিক সম্পাদক",
+    "department": "Jahangirnagar University",
+    "dept_bn": "জাহাঙ্গীরনগর বিশ্ববিদ্যালয়",
+    "photo": "assets/images/placeholder-avatar.png",
+    "category": "Sub-Committee",
+    "category_bn": "উপ-কমিটি"
+  },
+  {
+    "id": 6,
+    "name": "Mehedi Hasan",
+    "name_bn": "মেহেদী হাসান",
+    "role": "Education Secretary",
+    "role_bn": "শিক্ষা সম্পাদক",
+    "department": "Khulna University",
+    "dept_bn": "খুলনা বিশ্ববিদ্যালয়",
+    "photo": "assets/images/placeholder-avatar.png",
+    "category": "Sub-Committee",
+    "category_bn": "উপ-কমিটি"
+  }
+]

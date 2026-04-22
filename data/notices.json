@@ -1,16 +1,11 @@
 [
   { 
+    "id": 0, 
+    "text": "YSF official website is currently under development. Some features and content may be updated soon.",
+    "text_bn": "YSF-এর অফিসিয়াল ওয়েবসাইট বর্তমানে উন্নয়নাধীন। কিছু ফিচার ও কনটেন্ট শীঘ্রই আপডেট করা হবে।"
+  },
+  { 
     "id": 1, 
-    "text": "YSF Annual Conference 2025 registration is now open for members of 20+ private universities in Dhaka!", 
-    "text_bn": "ঢাকার ২০টিরও বেশি বেসরকারি বিশ্ববিদ্যালয়ের সদস্যদের জন্য YSF বার্ষিক সম্মেলন ২০২৫-এর নিবন্ধন শুরু হয়েছে!" 
-  },
-  { 
-    "id": 2, 
-    "text": "YSF Youth Leadership & Sustainability Workshop – August 5, 2025, Dhaka (Private Universities Network)", 
-    "text_bn": "YSF যুব নেতৃত্ব ও টেকসই উন্নয়ন কর্মশালা – ৫ আগস্ট ২০২৫, ঢাকা (বেসরকারি বিশ্ববিদ্যালয় নেটওয়ার্ক)" 
-  },
-  { 
-    "id": 3, 
     "text": "YSF expands its network across private universities in Dhaka to strengthen youth engagement and sustainability initiatives", 
     "text_bn": "যুব অংশগ্রহণ ও টেকসই উন্নয়ন কার্যক্রম জোরদারে YSF ঢাকার বেসরকারি বিশ্ববিদ্যালয়গুলোতে তার নেটওয়ার্ক সম্প্রসারণ করছে" 
   }
